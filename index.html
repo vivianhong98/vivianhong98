@@ -5,14 +5,14 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/homepage.css">
 		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="assets/js/homepage.js"></script> 
+		<link rel="stylesheet" href="assets/css/animate.min.css"/>
 	</head>
 
 <body>
 <!--NAVBAR-->
 	<div id="navbar">
 		<div class="navbar-elements">
-			<a href="./homepage.html" target="_blank">HOME<div class="underline"></div></a>
+			<a href="./index.html" target="_blank">HOME<div class="underline"></div></a>
 			<a href="./aboutpage.html" target="_blank">ABOUT<div class="underline"></div></a>
 			<a href="./projectspage.html" target="_blank">PROJECTS<div class="underline"></div></a>
 			<a href="./photographypage.html" target="_blank">PHOTOGRAPHY<div class="underline"></div></a>
@@ -22,15 +22,40 @@
 
 <!--BACKGROUND-->
 	<div id="background">
-		<div class="photo-container">
-			<div class="cover-photo"><img src="assets/img/coverphoto.jpg"></div>
+		<div id="wavybg-wrapper" style="height:100% width:100%"><canvas></canvas>
+			<div class="content">
+				<div class="left-content">
+					<div class="cover-photo"><img src="assets/img/coverphoto.jpg"></div>
+					<div class="title">Vivian Hong</div>
+				</div>
+				<div class="right-content">
+					<div class="sub-title1">
+						HELLO,
+						<br>
+						WELCOME TO MY WEBSITE!
+					</div>
+					<div class="sub-title2">
+						UC Berkeley Student
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="title">Vivian Hong</div>
-		<div class="sub-title1">HELLO,</div>
-		<div class="sub-title2">WELCOME TO MY WEBSITE</div>
 	</div>
-
-<!--ABOUT ME-->
-	<div class="About-Me">About Me!</div>
-	<div class="purple-background"><img src="assets/img/purple-background.jpg"></div>
 </body>
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
+
+<!--Type It Plugin-->
+<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+
+<!--Background Plugin-->
+<script src="assets/js/waterpipe.js"></script>
+
+<!--Waypoint Plugin-->
+<script src="assets/js/jquery.waypoints.js"></script>
+
+<!--JS Link-->
+<script src="assets/js/homepage.js"></script>
+
+</html>
+
