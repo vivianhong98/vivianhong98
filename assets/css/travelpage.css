@@ -1,0 +1,162 @@
+html, body {
+	position: relative;
+	font-family: 'Quicksand',sans-serif;
+	color: #27213C;
+	margin: 0;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+#navbar {
+	z-index: 1000;
+	position: fixed;
+	top: 0px;
+	color: #27213C;
+	background-color: #FFFFFF;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.navbar-elements {
+	position: absolute;
+	margin-left: 600px;
+	display: flex; 
+	flex-direction: row;
+	top: 30px;
+}
+
+a {
+	font-size: 18px;
+	padding-right: 80px;
+	text-decoration: none;
+	font-family: 'Quicksand',sans-serif;
+	color: #27213C;
+	z-index: 100;
+}
+
+a:hover {
+	cursor: pointer;
+	color: #EBC1C1;
+	font-weight: bold;
+}
+
+#content {
+	display: flex;
+	flex-direction: column;
+}
+/*TITLE*/
+#wavybg-wrapper {
+	position: relative;
+	height: 100vh;
+}
+.title {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin-top: -800px;
+	height: 100vh;
+}
+.My-Travel-Diary {
+	margin: 350px 200px 250px 200px;
+	font-size: 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.Down-Arrow {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.Down-Arrow img{
+	width: auto;
+	height: 30px;
+	display: block;
+	overflow: hidden;
+}
+
+/*SEATTLE*/
+.seattle {
+	display: flex; 
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+}
+
+.seattle-photo {
+	width: 100%;
+	margin-left: 200px;
+	z-index: 100;
+}
+
+
+.seattle-photo img{
+	width: auto;
+	height: 350px;
+	display: block;
+	overflow: hidden;
+}
+
+.seattletext {
+	width: 60%;
+	margin-right: 200px;
+}
+
+/*GUATEMALA*/
+.guatemala {
+	margin-top: 100px;
+	display: flex; 
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+}
+.guatemala-photo {
+	width: 100%;
+	margin-left: 200px;
+}
+
+.guatemala-photo img{
+	width: auto;
+	height: 350px;
+	display: block;
+	overflow: hidden;
+}
+
+.guatemalatext {
+	width: 60%;
+	margin-right: 200px;
+}
+
+/*BOSTON*/
+.boston {
+	display: flex; 
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	margin-top: 100px;
+}
+.boston-photo {
+	width: 100%;
+	margin-left: 200px;
+	z-index: 100;
+}
+
+
+.boston-photo img{
+	width: auto;
+	height: 350px;
+	display: block;
+	overflow: hidden;
+}
+
+.bostontext {
+	width: 60%;
+	margin-right: 200px;
+}

@@ -1,0 +1,152 @@
+html, body {
+	position: relative;
+	font-family: 'Quicksand',sans-serif;
+	color: #27213C;
+	margin: 0;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+/*NAVBAR*/
+#navbar {
+	z-index: 300;
+	position: fixed;
+	top: 0px;
+	color: #27213C;
+	background-color: #FFFFFF;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.navbar-elements {
+	z-index: 1000;
+	position: absolute;
+	margin-left: 600px;
+	display: flex; 
+	flex-direction: row;
+	justify-content: center;
+	top: 30px;
+	text-decoration: none;
+}
+
+a {
+	font-size: 18px;
+	padding-right: 80px;
+	text-decoration: none;
+	font-family: 'Quicksand',sans-serif;
+	color: #27213C;
+	z-index: 100;
+}
+
+a:hover {
+	cursor: pointer;
+	color: #EBC1C1;
+	font-weight: bold;
+}
+
+
+/**CONTENT**/ 
+#content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+/**TITLE**/
+.My-Photography-Portfolio {
+	margin: 300px 200px 250px 200px;
+	font-size: 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.Down-Arrow {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.Down-Arrow img{
+	width: auto;
+	height: 50px;
+	display: block;
+	overflow: hidden;
+}
+
+/**PHOTOS**/
+.photos {
+	margin-top: 250px;
+	display: flex;
+	flex-direction: row
+	justify-content: center;
+	align-items: center;
+}
+
+.photos img{
+	width: auto;
+	height: 440px;
+	display: block;
+	overflow: hidden;
+}
+
+/**WAYPOINT PHOTO**/
+.image-1 {
+	transform: rotate(90deg);
+}
+
+.image-2 {
+	transform: rotate(270deg);
+	margin: -190px;
+
+}
+.image-3 {
+	transform: rotate(270deg);
+}
+
+
+.photos-2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 150px;
+}
+
+.photos-2 img{
+	width: auto;
+	height: 450px;
+	display: block;
+	overflow: hidden;
+}
+
+.image-5 {
+	margin-left: 30px;
+}
+
+.photos-3{
+	display: flex;
+	flex-direction: row
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 30px;
+	margin-left: 60px;
+}
+
+.photos-3 img{
+	width: auto;
+	height: 450px;
+	display: block;
+	overflow: hidden;
+}
+
+.image-7 {
+	margin-left: 30px;
+}
