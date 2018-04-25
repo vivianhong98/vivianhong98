@@ -1,6 +1,8 @@
 $(document).ready(function() {
 	$('.sub-title1').typeIt({
-    	speed: 100
+        speed: 120,
+        autostart: false,
+        startDelay: 6000,
 	});
 
 	var smokyBG = $('#wavybg-wrapper').waterpipe({

@@ -1,6 +1,8 @@
 $(document).ready(function() {
 	$('.My-Travel-Diary').typeIt({
-    	speed: 120
+    	speed: 120,
+        autostart: false,
+        startDelay: 6000,
 	});
 
 	var smokyBG = $('#wavybg-wrapper').waterpipe({

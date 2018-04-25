@@ -1,10 +1,11 @@
 <!DOCTYPE HTML>
 <html>
 	<head> 
-		<title> Vivian Hong | Home </title>
+		<title> Vivian Hong | Photography </title>
 		<link rel="stylesheet" type="text/css" href="assets/css/photographypage.css">
 		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="assets/css/animate.min.css"/>
 	</head>
 <body>
 <!--NAVBAR-->
@@ -18,10 +19,14 @@
 		</div>
 	</div>
 
-<!--Background1-->
+<!--Background-->
 	<div id="content">
-		<div class="My-Photography-Portfolio">My Photography Portfolio</div>
-		<div class="Down-Arrow"><img src="assets/img/downarrow.jpg"></div>
+		<div id="wavybg-wrapper" style="height:100% width:100%"><canvas></canvas>
+			<div class="title">
+				<div class="My-Photography-Portfolio">My Photography Portfolio</div>
+				<div class="Down-Arrow"><img src="assets/img/downarrow.jpg"></div>
+			</div>
+		</div>
 		<div class="photos">
 			<div class="image-1"><img src="assets/img/image1.jpg"></div>
 			<div class="image-2"><img src="assets/img/image2.jpg"></div>
@@ -31,21 +36,25 @@
 			<div class="image-4"><img src="assets/img/image4.jpg"></div>
 			<div class="image-5"><img src="assets/img/image5.jpg"></div>
 		</div>
-		<div class=photos-3>
+		<div class="photos-3">
 			<div class="image-6"><img src="assets/img/image6.jpg"></div>
 			<div class="image-7"><img src="assets/img/image7.jpg"></div>
 		</div>
 	</div>
 </body>
 
-<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
+
 <!--Type It Plugin-->
 <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
 
-<!--Waypoint plugin-->
-<script src="assets/js/jquery.waypoints.min.js"></script>
-</html>
+<!--Background Plugin-->
+<script src="assets/js/waterpipe.js"></script>
+
+<!--Waypoint Plugin-->
+<script src="assets/js/jquery.waypoints.js"></script>
 
 <!--JS Link-->
 <script src="assets/js/photographypage.js"></script>
-	
+
+</html>

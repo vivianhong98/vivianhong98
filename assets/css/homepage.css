@@ -52,20 +52,21 @@ a:hover {
 
 .content {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-content: center;
 	justify-content: center;
-	position: absolute;
-	margin: -550px 200px 0px 200px;
+	position: relative;
+	margin: -700px 0px 0px 500px;
 }
 
 .cover-photo {
+	position: relative;
 	margin-top: 10%;
 	width: 270px;
 	height: 270px;
 	overflow: hidden;
 	border-radius: 50%;
-	margin-left: 40px;
+	margin-left: 80px;
 }
 
 .cover-photo img{
@@ -74,29 +75,19 @@ a:hover {
 	display: block;
 }
 
-.right-content {
-	display: flex;
-	flex-direction: column;
-	align-content: center;
-	justify-content: center;
-	margin-left: 200px;
-	width: 500px;
-}
 .title {
 	letter-spacing: 3px;
 	margin-top: 2%;
 	font-size: 60px;
 	width: 500px;
+	margin-left: 30px;
 }
 
-.sub-title1 {	
+.sub-title1 {
+	justify-content: center;	
 	margin-top: 3%;
 	font-size: 30px;
-}
-
-.sub-title2 {	
-	margin-top: 3%;
-	font-size: 30px;
+	margin-left: 30px;
 }
 
 
